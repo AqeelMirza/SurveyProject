@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "74930753985",
+    "firebase_url": "https://surveyhomework-a0f02.firebaseio.com",
+    "project_id": "surveyhomework-a0f02",
+    "storage_bucket": "surveyhomework-a0f02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74930753985:android:b93ccbf800c8b597",
+        "android_client_info": {
+          "package_name": "com.example.yeshu.homework5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74930753985-62kql0aclquvg1c4a55lsi42adb7h0h6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqQa62tl47l2b1oYX8PCKuSAKQzRlHznE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

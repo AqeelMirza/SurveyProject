@@ -1,0 +1,2348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.yeshu.homework5.survey">
+
+
+    <ViewFlipper
+        android:id="@+id/vf_q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:text="1. About The Instructor"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:id="@+id/q1.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_weight="1.40"
+                    android:text="1.1 Created an academic environment that supported the learning process."
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg1.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb112"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb113"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb114"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb115"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:text="1. About The Instructor"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:id="@+id/q1.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="1.2 Modeled respect to others and the values of Fontbonne University."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg1.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb121"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb122"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb123"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb124"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb125"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:text="1. About The Instructor"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/q1.3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="1.3 Demonstrated enthusiasm for teaching and learning."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg1.3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb131"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb132"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb133"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb134"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb135"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="1. About The Instructor"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/q1.4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="1.4 Followed the policies outlined in the syllabus."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg1.4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb141"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb142"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb143"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb144"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb145"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="1. About The Instructor"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/q1.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="1.5 Presented the content in a logical and organizaed manner."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg1.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb151"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb152"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb153"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb154"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb155"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+                </RadioGroup>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="1. About The Instructor"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/q1.6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="1.6 Challenged me to think in new and different ways."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg1.6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb161"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb162"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb163"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb164"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb165"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="1. About The Instructor"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/q1.7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="1.7 Addressed the objectives stated in the syllabus."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg1.7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb171"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb172"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb173"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb174"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb175"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="1. About The Instructor"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/q1.8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="1.8 Encouraged my interest in the course."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg1.8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb181"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb182"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb183"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb184"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb185"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="1. About The Instructor"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/q1.9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="1.9 Provided timely feedback."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg1.9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb191"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb192"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb193"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb194"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb195"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="1. About The Instructor"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/q1.10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="1.10 Provided useful feedback."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg1.10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb1101"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb1102"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb1103"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb1104"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb1105"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="1. About The Instructor"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/q1.11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="1.11 Make her/his availability known."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg1.11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb1111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb1112"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb1113"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb1114"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb1115"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="1. About The Instructor"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/q1.12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="1.12 Overall, te instructor effectively facilitated my learning."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg1.12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb1121"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb1122"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb1123"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb1124"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb1125"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="2. About The Course"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/q2.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="2.1 Syllabus clearly stated the learning objectives."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg2.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb211"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb212"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb213"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb214"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb215"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="2. About The Course"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q2.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="2.2 Syllabus clearly stated the overall grading policy."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg2.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb221"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb222"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb223"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb224"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb225"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="2. About The Course"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q2.3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="2.3 Assignments were clearly stated."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg2.3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb231"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb232"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb233"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb234"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb235"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="2. About The Course"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q2.4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="2.4 Assignments/activities/tests helped me attain the learning objectives."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg2.4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb241"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb242"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb243"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb244"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb245"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="2. About The Course"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q2.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="2.5 Grading criteria for assignments were clearly stated."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg2.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb251"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb252"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb253"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb254"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb255"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="2. About The Course"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q2.6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="2.6 Textbook and/or materials were helpful in attaining the learning objectives."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg2.6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb261"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb262"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb263"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb264"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb265"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="2. About The Course"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q2.7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="2.7 Overall, I rate this course as excellent."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg2.7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb271"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb272"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Disagree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb273"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Neutral "
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb274"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb275"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Strongly Agree"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="3. Student Information"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/q3.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="3.1 For me this course was."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg3.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb311"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Required"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb312"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Elective"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="3. Student Information"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/q3.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="3.2 My student classification is."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:id="@+id/rg3.2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/rb321"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorAccent"
+                            android:text="First-Year: 0-29 credit hours earned"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20dp" />
+
+                        <RadioButton
+                            android:id="@+id/rb322"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorAccent"
+                            android:text="Sophomore: 30-59 credit hours earned"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20dp" />
+
+                        <RadioButton
+                            android:id="@+id/rb323"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorAccent"
+                            android:text="Junior: 60-89 credit hours earned"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20dp" />
+
+                        <RadioButton
+                            android:id="@+id/rb324"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorAccent"
+                            android:text="Senior: 90 or more credits hours earned"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20dp" />
+
+                        <RadioButton
+                            android:id="@+id/rb325"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorAccent"
+                            android:text="Graduate"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20dp" />
+
+                        <RadioButton
+                            android:id="@+id/rb326"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorAccent"
+                            android:text="Certificate Seeking"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20dp" />
+
+                        <RadioButton
+                            android:id="@+id/rb327"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorAccent"
+                            android:text="Unclassified"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20dp" />
+
+                        <RadioButton
+                            android:id="@+id/rb328"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorAccent"
+                            android:text="Other"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20dp" />
+
+                    </RadioGroup>
+
+                </ScrollView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="3. Student Information"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q3.3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="3.3 I regularly attended class."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg3.3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb331"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Yes"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb332"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="No"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="3. Student Information"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q3.4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="3.4 I submitted homework on time."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg3.4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb341"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Yes"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb342"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="No"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="3. Student Information"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q3.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="3.5 I asked questions when I did not understand."
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg3.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb351"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Yes"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/rb352"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="No"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="4. Comments About Instructor"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:hint="Type here"
+                android:inputType="textMultiLine"
+                android:textColor="#FFFFFF"
+
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:text="5. Comments About Course"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:hint="Type here"
+                android:inputType="textMultiLine"
+                android:textColor="#FFFFFF"
+
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/sub_sur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:padding="20dp"
+                android:text="Submit survey"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/go_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:padding="20dp"
+                android:text="Go home"
+                android:textColor="#FFFFFF" />
+</LinearLayout>
+
+    </ViewFlipper>
+
+</LinearLayout>
+
