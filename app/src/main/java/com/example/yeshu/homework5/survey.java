@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 import android.widget.ViewFlipper;
 
 import com.example.yeshu.homework5.Models.Q1_Result;
@@ -228,340 +229,351 @@ public class survey extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getApplicationContext(), result.class);
-                Bundle bundle = new Bundle();
+                if (q11 == null || q12 == null || q13 == null || q14 == null || q15 == null || q16 == null || q17 == null ||
+                        q18 == null || q19 == null || q110 == null || q111 == null || q112 == null || q21 == null
+                        || q22 == null || q23 == null || q24 == null || q25 == null || q26 == null || q27 == null
+                        || q31 == null || q32 == null || q33 == null || q34 == null || q35 == null ||
+                        q4 == null || q5 == null) {
 
-                String sa = "Strongly Agree";
-                String a = "Agree";
-                String n = "Neutral ";
-                String d = "Disagree";
-                String sd = "Strongly Disagree";
 
-                //=====Question-1=====
+                    Toast.makeText(survey.this, "Please answer all questions", Toast.LENGTH_SHORT).show();
 
-                st_ag1 = 0;
-                ag1 = 0;
-                nu1 = 0;
-                da1 = 0;
-                st_da1 = 0;
 
-                if (q11.equals(sa)) {
-                    st_ag1++;
-                } else if (q11.equals(a)) {
-                    ag1++;
-                } else if (q11.equals(n)) {
-                    nu1++;
-                } else if (q11.equals(d)) {
-                    da1++;
-                } else if (q11.equals(sd)) {
-                    st_da1++;
+                } else {
+                    Intent intent = new Intent(getApplicationContext(), result.class);
+                    Bundle bundle = new Bundle();
+
+                    String sa = "Strongly Agree";
+                    String a = "Agree";
+                    String n = "Neutral ";
+                    String d = "Disagree";
+                    String sd = "Strongly Disagree";
+
+                    //=====Question-1=====
+
+                    st_ag1 = 0;
+                    ag1 = 0;
+                    nu1 = 0;
+                    da1 = 0;
+                    st_da1 = 0;
+
+                    if (q11.equals(sa)) {
+                        st_ag1++;
+                    } else if (q11.equals(a)) {
+                        ag1++;
+                    } else if (q11.equals(n)) {
+                        nu1++;
+                    } else if (q11.equals(d)) {
+                        da1++;
+                    } else if (q11.equals(sd)) {
+                        st_da1++;
+                    }
+
+                    //---------
+                    if (q12.equals(sa)) {
+                        st_ag1++;
+                    } else if (q12.equals(a)) {
+                        ag1++;
+                    } else if (q12.equals(n)) {
+                        nu1++;
+                    } else if (q12.equals(d)) {
+                        da1++;
+                    } else if (q12.equals(sd)) {
+                        st_da1++;
+                    }
+
+
+                    //--------
+                    if (q13.equals(sa)) {
+                        st_ag1++;
+                    } else if (q13.equals(a)) {
+                        ag1++;
+                    } else if (q13.equals(n)) {
+                        nu1++;
+                    } else if (q13.equals(d)) {
+                        da1++;
+                    } else if (q13.equals(sd)) {
+                        st_da1++;
+                    }
+
+                    //-----
+                    if (q14.equals(sa)) {
+                        st_ag1++;
+                    } else if (q14.equals(a)) {
+                        ag1++;
+                    } else if (q14.equals(n)) {
+                        nu1++;
+                    } else if (q14.equals(d)) {
+                        da1++;
+                    } else if (q14.equals(sd)) {
+                        st_da1++;
+                    }
+
+                    //----------
+                    if (q15.equals(sa)) {
+                        st_ag1++;
+                    } else if (q15.equals(a)) {
+                        ag1++;
+                    } else if (q15.equals(n)) {
+                        nu1++;
+                    } else if (q15.equals(d)) {
+                        da1++;
+                    } else if (q15.equals(sd)) {
+                        st_da1++;
+                    }
+
+                    //-----------
+                    if (q16.equals(sa)) {
+                        st_ag1++;
+                    } else if (q16.equals(a)) {
+                        ag1++;
+                    } else if (q16.equals(n)) {
+                        nu1++;
+                    } else if (q16.equals(d)) {
+                        da1++;
+                    } else if (q16.equals(sd)) {
+                        st_da1++;
+                    }
+
+                    //--------
+                    if (q17.equals(sa)) {
+                        st_ag1++;
+                    } else if (q17.equals(a)) {
+                        ag1++;
+                    } else if (q17.equals(n)) {
+                        nu1++;
+                    } else if (q17.equals(d)) {
+                        da1++;
+                    } else if (q17.equals(sd)) {
+                        st_da1++;
+                    }
+
+                    //----------
+                    if (q18.equals(sa)) {
+                        st_ag1++;
+                    } else if (q18.equals(a)) {
+                        ag1++;
+                    } else if (q18.equals(n)) {
+                        nu1++;
+                    } else if (q18.equals(d)) {
+                        da1++;
+                    } else if (q18.equals(sd)) {
+                        st_da1++;
+                    }
+
+                    //---------
+                    if (q19.equals(sa)) {
+                        st_ag1++;
+                    } else if (q19.equals(a)) {
+                        ag1++;
+                    } else if (q19.equals(n)) {
+                        nu1++;
+                    } else if (q19.equals(d)) {
+                        da1++;
+                    } else if (q19.equals(sd)) {
+                        st_da1++;
+                    }
+
+                    //----------
+                    if (q110.equals(sa)) {
+                        st_ag1++;
+                    } else if (q110.equals(a)) {
+                        ag1++;
+                    } else if (q110.equals(n)) {
+                        nu1++;
+                    } else if (q110.equals(d)) {
+                        da1++;
+                    } else if (q110.equals(sd)) {
+                        st_da1++;
+                    }
+
+                    //-----------
+                    if (q111.equals(sa)) {
+                        st_ag1++;
+                    } else if (q111.equals(a)) {
+                        ag1++;
+                    } else if (q111.equals(n)) {
+                        nu1++;
+                    } else if (q111.equals(d)) {
+                        da1++;
+                    } else if (q111.equals(sd)) {
+                        st_da1++;
+                    }
+
+                    //-----------
+                    if (q112.equals(sa)) {
+                        st_ag1++;
+                    } else if (q112.equals(a)) {
+                        ag1++;
+                    } else if (q112.equals(n)) {
+                        nu1++;
+                    } else if (q112.equals(d)) {
+                        da1++;
+                    } else if (q112.equals(sd)) {
+                        st_da1++;
+                    }
+
+                    bundle.putInt("q1sd", st_da1);
+                    bundle.putInt("q1d", da1);
+                    bundle.putInt("q1n", nu1);
+                    bundle.putInt("q1a", ag1);
+                    bundle.putInt("q1sa", st_ag1);
+
+                    Q1_Result q1_result = new Q1_Result(st_da1, da1, nu1, ag1, st_ag1);
+
+
+                    //=====Question-2=====
+
+                    st_ag2 = 0;
+                    ag2 = 0;
+                    nu2 = 0;
+                    da2 = 0;
+                    st_da2 = 0;
+
+
+                    if (q21.equals(sa)) {
+                        st_ag2++;
+                    } else if (q21.equals(a)) {
+                        ag2++;
+                    } else if (q21.equals(n)) {
+                        nu2++;
+                    } else if (q21.equals(d)) {
+                        da2++;
+                    } else if (q21.equals(sd)) {
+                        st_da2++;
+                    }
+
+                    //-----------
+                    if (q22.equals(sa)) {
+                        st_ag2++;
+                    } else if (q22.equals(a)) {
+                        ag2++;
+                    } else if (q22.equals(n)) {
+                        nu2++;
+                    } else if (q22.equals(d)) {
+                        da2++;
+                    } else if (q22.equals(sd)) {
+                        st_da2++;
+                    }
+
+                    //------------
+                    if (q23.equals(sa)) {
+                        st_ag2++;
+                    } else if (q23.equals(a)) {
+                        ag2++;
+                    } else if (q23.equals(n)) {
+                        nu2++;
+                    } else if (q23.equals(d)) {
+                        da2++;
+                    } else if (q23.equals(sd)) {
+                        st_da2++;
+                    }
+
+                    //--------------
+                    if (q24.equals(sa)) {
+                        st_ag2++;
+                    } else if (q24.equals(a)) {
+                        ag2++;
+                    } else if (q24.equals(n)) {
+                        nu2++;
+                    } else if (q24.equals(d)) {
+                        da2++;
+                    } else if (q24.equals(sd)) {
+                        st_da2++;
+                    }
+
+                    //--------------
+                    if (q25.equals(sa)) {
+                        st_ag2++;
+                    } else if (q25.equals(a)) {
+                        ag2++;
+                    } else if (q25.equals(n)) {
+                        nu2++;
+                    } else if (q25.equals(d)) {
+                        da2++;
+                    } else if (q25.equals(sd)) {
+                        st_da2++;
+                    }
+
+                    //-------------
+                    if (q26.equals(sa)) {
+                        st_ag2++;
+                    } else if (q26.equals(a)) {
+                        ag2++;
+                    } else if (q26.equals(n)) {
+                        nu2++;
+                    } else if (q26.equals(d)) {
+                        da2++;
+                    } else if (q26.equals(sd)) {
+                        st_da2++;
+                    }
+
+                    //---------------
+                    if (q27.equals(sa)) {
+                        st_ag2++;
+                    } else if (q27.equals(a)) {
+                        ag2++;
+                    } else if (q27.equals(n)) {
+                        nu2++;
+                    } else if (q27.equals(d)) {
+                        da2++;
+                    } else if (q27.equals(sd)) {
+                        st_da2++;
+                    }
+
+
+                    bundle.putInt("q2sd", st_da2);
+                    bundle.putInt("q2d", da2);
+                    bundle.putInt("q2n", nu2);
+                    bundle.putInt("q2a", ag2);
+                    bundle.putInt("q2sa", st_ag2);
+
+                    Q2_Result q2_result = new Q2_Result(st_da2, da2, nu2, ag2, st_ag2);
+
+
+                    //=====Question-3=====
+
+
+                    bundle.putString("q31", q31);
+                    bundle.putString("q32", q32);
+                    bundle.putString("q33", q33);
+                    bundle.putString("q34", q34);
+                    bundle.putString("q35", q35);
+
+                    Q3_Result q3_result = new Q3_Result(q31, q32, q33, q34, q35);
+                    //=====Question-4=====
+
+                    bundle.putString("q4", q4);
+
+                    Q4_Result q4_result = new Q4_Result(q4);
+                    //=====Question-5=====
+
+                    bundle.putString("q5", q5);
+
+                    Q5_Result q5_result = new Q5_Result(q5);
+
+
+                    Result_Model result_model = new Result_Model(q1_result, q2_result, q3_result, q4_result, q5_result);
+
+
+                    mFirebaseDatabase.child("Result").setValue(result_model);
+
+                    intent.putExtras(bundle);
+                    //Intent in = new Intent(getApplicationContext(), MainActivity.class);
+                    startActivity(intent);
+
+                    //--------------------------------------------------------------
+
+                    clicked = true;
+
+                    s1 = "QUESTION 1\n" + "Strongly Disagree = " + bundle.getInt("q1sd") + "\n" + "Disagree = " + bundle.getInt("q1d") + "\n" + "Neutral = " + bundle.getInt("q1n") + "\n" + "Agree = " + bundle.getInt("q1a") + "\n" + "Strongly Agree = " + bundle.getInt("q1sa");
+                    s2 = "QUESTION 2\n" + "Strongly Disagree = " + bundle.getInt("q2sd") + "\n" + "Disagree = " + bundle.getInt("q2d") + "\n" + "Neutral = " + bundle.getInt("q2n") + "\n" + "Agree = " + bundle.getInt("q2a") + "\n" + "Strongly Agree = " + bundle.getInt("q2sa");
+                    s3 = "QUESTION 3\n" + "Student is:\n" + bundle.getString("q31") + "\n" + bundle.getString("q32") + "\n" + bundle.getString("q33") + "\n" + bundle.getString("q34") + "\n" + bundle.getString("q35");
+                    s4 = "QUESTION 4\n" + bundle.getString("q4");
+                    s5 = "QUESTION 5\n" + bundle.getString("q5");
+
+                    myprefs.edit().clear().commit();
                 }
-
-                //---------
-                if (q12.equals(sa)) {
-                    st_ag1++;
-                } else if (q12.equals(a)) {
-                    ag1++;
-                } else if (q12.equals(n)) {
-                    nu1++;
-                } else if (q12.equals(d)) {
-                    da1++;
-                } else if (q12.equals(sd)) {
-                    st_da1++;
-                }
-
-
-                //--------
-                if (q13.equals(sa)) {
-                    st_ag1++;
-                } else if (q13.equals(a)) {
-                    ag1++;
-                } else if (q13.equals(n)) {
-                    nu1++;
-                } else if (q13.equals(d)) {
-                    da1++;
-                } else if (q13.equals(sd)) {
-                    st_da1++;
-                }
-
-                //-----
-                if (q14.equals(sa)) {
-                    st_ag1++;
-                } else if (q14.equals(a)) {
-                    ag1++;
-                } else if (q14.equals(n)) {
-                    nu1++;
-                } else if (q14.equals(d)) {
-                    da1++;
-                } else if (q14.equals(sd)) {
-                    st_da1++;
-                }
-
-                //----------
-                if (q15.equals(sa)) {
-                    st_ag1++;
-                } else if (q15.equals(a)) {
-                    ag1++;
-                } else if (q15.equals(n)) {
-                    nu1++;
-                } else if (q15.equals(d)) {
-                    da1++;
-                } else if (q15.equals(sd)) {
-                    st_da1++;
-                }
-
-                //-----------
-                if (q16.equals(sa)) {
-                    st_ag1++;
-                } else if (q16.equals(a)) {
-                    ag1++;
-                } else if (q16.equals(n)) {
-                    nu1++;
-                } else if (q16.equals(d)) {
-                    da1++;
-                } else if (q16.equals(sd)) {
-                    st_da1++;
-                }
-
-                //--------
-                if (q17.equals(sa)) {
-                    st_ag1++;
-                } else if (q17.equals(a)) {
-                    ag1++;
-                } else if (q17.equals(n)) {
-                    nu1++;
-                } else if (q17.equals(d)) {
-                    da1++;
-                } else if (q17.equals(sd)) {
-                    st_da1++;
-                }
-
-                //----------
-                if (q18.equals(sa)) {
-                    st_ag1++;
-                } else if (q18.equals(a)) {
-                    ag1++;
-                } else if (q18.equals(n)) {
-                    nu1++;
-                } else if (q18.equals(d)) {
-                    da1++;
-                } else if (q18.equals(sd)) {
-                    st_da1++;
-                }
-
-                //---------
-                if (q19.equals(sa)) {
-                    st_ag1++;
-                } else if (q19.equals(a)) {
-                    ag1++;
-                } else if (q19.equals(n)) {
-                    nu1++;
-                } else if (q19.equals(d)) {
-                    da1++;
-                } else if (q19.equals(sd)) {
-                    st_da1++;
-                }
-
-                //----------
-                if (q110.equals(sa)) {
-                    st_ag1++;
-                } else if (q110.equals(a)) {
-                    ag1++;
-                } else if (q110.equals(n)) {
-                    nu1++;
-                } else if (q110.equals(d)) {
-                    da1++;
-                } else if (q110.equals(sd)) {
-                    st_da1++;
-                }
-
-                //-----------
-                if (q111.equals(sa)) {
-                    st_ag1++;
-                } else if (q111.equals(a)) {
-                    ag1++;
-                } else if (q111.equals(n)) {
-                    nu1++;
-                } else if (q111.equals(d)) {
-                    da1++;
-                } else if (q111.equals(sd)) {
-                    st_da1++;
-                }
-
-                //-----------
-                if (q112.equals(sa)) {
-                    st_ag1++;
-                } else if (q112.equals(a)) {
-                    ag1++;
-                } else if (q112.equals(n)) {
-                    nu1++;
-                } else if (q112.equals(d)) {
-                    da1++;
-                } else if (q112.equals(sd)) {
-                    st_da1++;
-                }
-
-                bundle.putInt("q1sd", st_da1);
-                bundle.putInt("q1d", da1);
-                bundle.putInt("q1n", nu1);
-                bundle.putInt("q1a", ag1);
-                bundle.putInt("q1sa", st_ag1);
-
-                Q1_Result q1_result = new Q1_Result(st_da1, da1, nu1, ag1, st_ag1);
-
-
-                //=====Question-2=====
-
-                st_ag2 = 0;
-                ag2 = 0;
-                nu2 = 0;
-                da2 = 0;
-                st_da2 = 0;
-
-
-                if (q21.equals(sa)) {
-                    st_ag2++;
-                } else if (q21.equals(a)) {
-                    ag2++;
-                } else if (q21.equals(n)) {
-                    nu2++;
-                } else if (q21.equals(d)) {
-                    da2++;
-                } else if (q21.equals(sd)) {
-                    st_da2++;
-                }
-
-                //-----------
-                if (q22.equals(sa)) {
-                    st_ag2++;
-                } else if (q22.equals(a)) {
-                    ag2++;
-                } else if (q22.equals(n)) {
-                    nu2++;
-                } else if (q22.equals(d)) {
-                    da2++;
-                } else if (q22.equals(sd)) {
-                    st_da2++;
-                }
-
-                //------------
-                if (q23.equals(sa)) {
-                    st_ag2++;
-                } else if (q23.equals(a)) {
-                    ag2++;
-                } else if (q23.equals(n)) {
-                    nu2++;
-                } else if (q23.equals(d)) {
-                    da2++;
-                } else if (q23.equals(sd)) {
-                    st_da2++;
-                }
-
-                //--------------
-                if (q24.equals(sa)) {
-                    st_ag2++;
-                } else if (q24.equals(a)) {
-                    ag2++;
-                } else if (q24.equals(n)) {
-                    nu2++;
-                } else if (q24.equals(d)) {
-                    da2++;
-                } else if (q24.equals(sd)) {
-                    st_da2++;
-                }
-
-                //--------------
-                if (q25.equals(sa)) {
-                    st_ag2++;
-                } else if (q25.equals(a)) {
-                    ag2++;
-                } else if (q25.equals(n)) {
-                    nu2++;
-                } else if (q25.equals(d)) {
-                    da2++;
-                } else if (q25.equals(sd)) {
-                    st_da2++;
-                }
-
-                //-------------
-                if (q26.equals(sa)) {
-                    st_ag2++;
-                } else if (q26.equals(a)) {
-                    ag2++;
-                } else if (q26.equals(n)) {
-                    nu2++;
-                } else if (q26.equals(d)) {
-                    da2++;
-                } else if (q26.equals(sd)) {
-                    st_da2++;
-                }
-
-                //---------------
-                if (q27.equals(sa)) {
-                    st_ag2++;
-                } else if (q27.equals(a)) {
-                    ag2++;
-                } else if (q27.equals(n)) {
-                    nu2++;
-                } else if (q27.equals(d)) {
-                    da2++;
-                } else if (q27.equals(sd)) {
-                    st_da2++;
-                }
-
-
-                bundle.putInt("q2sd", st_da2);
-                bundle.putInt("q2d", da2);
-                bundle.putInt("q2n", nu2);
-                bundle.putInt("q2a", ag2);
-                bundle.putInt("q2sa", st_ag2);
-
-                Q2_Result q2_result = new Q2_Result(st_da2, da2, nu2, ag2, st_ag2);
-
-
-                //=====Question-3=====
-
-
-                bundle.putString("q31", q31);
-                bundle.putString("q32", q32);
-                bundle.putString("q33", q33);
-                bundle.putString("q34", q34);
-                bundle.putString("q35", q35);
-
-                Q3_Result q3_result = new Q3_Result(q31, q32, q33, q34, q35);
-                //=====Question-4=====
-
-                bundle.putString("q4", q4);
-
-                Q4_Result q4_result = new Q4_Result(q4);
-                //=====Question-5=====
-
-                bundle.putString("q5", q5);
-
-                Q5_Result q5_result = new Q5_Result(q5);
-
-
-                Result_Model result_model = new Result_Model(q1_result, q2_result, q3_result, q4_result, q5_result);
-
-
-                mFirebaseDatabase.child("Result").setValue(result_model);
-
-                intent.putExtras(bundle);
-                //Intent in = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(intent);
-
-                //--------------------------------------------------------------
-
-                clicked = true;
-
-                s1 = "QUESTION 1\n" + "Strongly Disagree = " + bundle.getInt("q1sd") + "\n" + "Disagree = " + bundle.getInt("q1d") + "\n" + "Neutral = " + bundle.getInt("q1n") + "\n" + "Agree = " + bundle.getInt("q1a") + "\n" + "Strongly Agree = " + bundle.getInt("q1sa");
-                s2 = "QUESTION 2\n" + "Strongly Disagree = " + bundle.getInt("q2sd") + "\n" + "Disagree = " + bundle.getInt("q2d") + "\n" + "Neutral = " + bundle.getInt("q2n") + "\n" + "Agree = " + bundle.getInt("q2a") + "\n" + "Strongly Agree = " + bundle.getInt("q2sa");
-                s3 = "QUESTION 3\n" + "Student is:\n" + bundle.getString("q31") + "\n" + bundle.getString("q32") + "\n" + bundle.getString("q33") + "\n" + bundle.getString("q34") + "\n" + bundle.getString("q35");
-                s4 = "QUESTION 4\n" + bundle.getString("q4");
-                s5 = "QUESTION 5\n" + bundle.getString("q5");
-
-                myprefs.edit().clear().commit();
-
             }
         });
 
